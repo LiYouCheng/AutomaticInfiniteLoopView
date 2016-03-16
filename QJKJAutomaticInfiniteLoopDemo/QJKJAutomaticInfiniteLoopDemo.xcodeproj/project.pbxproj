@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0450D74F1C97C774008AFDA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D74E1C97C774008AFDA7 /* main.m */; };
+		0450D7521C97C774008AFDA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D7511C97C774008AFDA7 /* AppDelegate.m */; };
+		0450D7551C97C774008AFDA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D7541C97C774008AFDA7 /* ViewController.m */; };
+		0450D7581C97C774008AFDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0450D7561C97C774008AFDA7 /* Main.storyboard */; };
+		0450D75A1C97C774008AFDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0450D7591C97C774008AFDA7 /* Assets.xcassets */; };
+		0450D75D1C97C774008AFDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0450D75B1C97C774008AFDA7 /* LaunchScreen.storyboard */; };
+		0450D7681C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D7671C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.m */; };
+		0450D7731C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D7721C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.m */; };
+		0450D7861C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D7811C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.m */; };
+		0450D7881C97C78A008AFDA7 /* UIView+QJKJFrameQuick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D7851C97C78A008AFDA7 /* UIView+QJKJFrameQuick.m */; };
+		0450D78B1C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D78A1C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.m */; };
+		0450D78E1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0450D78D1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0450D7641C97C774008AFDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0450D7421C97C774008AFDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0450D7491C97C774008AFDA7;
+			remoteInfo = QJKJAutomaticInfiniteLoopDemo;
+		};
+		0450D76F1C97C774008AFDA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0450D7421C97C774008AFDA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0450D7491C97C774008AFDA7;
+			remoteInfo = QJKJAutomaticInfiniteLoopDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0450D74A1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QJKJAutomaticInfiniteLoopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0450D74E1C97C774008AFDA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0450D7501C97C774008AFDA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0450D7511C97C774008AFDA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0450D7531C97C774008AFDA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0450D7541C97C774008AFDA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0450D7571C97C774008AFDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0450D7591C97C774008AFDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0450D75C1C97C774008AFDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0450D75E1C97C774008AFDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0450D7631C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJKJAutomaticInfiniteLoopDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0450D7671C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJKJAutomaticInfiniteLoopDemoTests.m; sourceTree = "<group>"; };
+		0450D7691C97C774008AFDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0450D76E1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJKJAutomaticInfiniteLoopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0450D7721C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJKJAutomaticInfiniteLoopDemoUITests.m; sourceTree = "<group>"; };
+		0450D7741C97C774008AFDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0450D7801C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJKJAutomaticInfiniteLoop.h; sourceTree = "<group>"; };
+		0450D7811C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJKJAutomaticInfiniteLoop.m; sourceTree = "<group>"; };
+		0450D7841C97C78A008AFDA7 /* UIView+QJKJFrameQuick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QJKJFrameQuick.h"; sourceTree = "<group>"; };
+		0450D7851C97C78A008AFDA7 /* UIView+QJKJFrameQuick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QJKJFrameQuick.m"; sourceTree = "<group>"; };
+		0450D7891C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJKJImageAutomaticInfiniteLoop.h; sourceTree = "<group>"; };
+		0450D78A1C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJKJImageAutomaticInfiniteLoop.m; sourceTree = "<group>"; };
+		0450D78C1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJKJMessageAutomaticInfiteLoop.h; sourceTree = "<group>"; };
+		0450D78D1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJKJMessageAutomaticInfiteLoop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0450D7471C97C774008AFDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0450D7601C97C774008AFDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0450D76B1C97C774008AFDA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0450D7411C97C774008AFDA7 = {
+			isa = PBXGroup;
+			children = (
+				0450D74C1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo */,
+				0450D7661C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests */,
+				0450D7711C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests */,
+				0450D74B1C97C774008AFDA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0450D74B1C97C774008AFDA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0450D74A1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo.app */,
+				0450D7631C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.xctest */,
+				0450D76E1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0450D74C1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0450D7501C97C774008AFDA7 /* AppDelegate.h */,
+				0450D7511C97C774008AFDA7 /* AppDelegate.m */,
+				0450D7531C97C774008AFDA7 /* ViewController.h */,
+				0450D7541C97C774008AFDA7 /* ViewController.m */,
+				0450D7891C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.h */,
+				0450D78A1C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.m */,
+				0450D78C1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.h */,
+				0450D78D1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.m */,
+				0450D7801C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.h */,
+				0450D7811C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.m */,
+				0450D7841C97C78A008AFDA7 /* UIView+QJKJFrameQuick.h */,
+				0450D7851C97C78A008AFDA7 /* UIView+QJKJFrameQuick.m */,
+				0450D7561C97C774008AFDA7 /* Main.storyboard */,
+				0450D7591C97C774008AFDA7 /* Assets.xcassets */,
+				0450D75B1C97C774008AFDA7 /* LaunchScreen.storyboard */,
+				0450D75E1C97C774008AFDA7 /* Info.plist */,
+				0450D74D1C97C774008AFDA7 /* Supporting Files */,
+			);
+			path = QJKJAutomaticInfiniteLoopDemo;
+			sourceTree = "<group>";
+		};
+		0450D74D1C97C774008AFDA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0450D74E1C97C774008AFDA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0450D7661C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0450D7671C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.m */,
+				0450D7691C97C774008AFDA7 /* Info.plist */,
+			);
+			path = QJKJAutomaticInfiniteLoopDemoTests;
+			sourceTree = "<group>";
+		};
+		0450D7711C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0450D7721C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.m */,
+				0450D7741C97C774008AFDA7 /* Info.plist */,
+			);
+			path = QJKJAutomaticInfiniteLoopDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0450D7491C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0450D7771C97C774008AFDA7 /* Build configuration list for PBXNativeTarget "QJKJAutomaticInfiniteLoopDemo" */;
+			buildPhases = (
+				0450D7461C97C774008AFDA7 /* Sources */,
+				0450D7471C97C774008AFDA7 /* Frameworks */,
+				0450D7481C97C774008AFDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QJKJAutomaticInfiniteLoopDemo;
+			productName = QJKJAutomaticInfiniteLoopDemo;
+			productReference = 0450D74A1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0450D7621C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0450D77A1C97C774008AFDA7 /* Build configuration list for PBXNativeTarget "QJKJAutomaticInfiniteLoopDemoTests" */;
+			buildPhases = (
+				0450D75F1C97C774008AFDA7 /* Sources */,
+				0450D7601C97C774008AFDA7 /* Frameworks */,
+				0450D7611C97C774008AFDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0450D7651C97C774008AFDA7 /* PBXTargetDependency */,
+			);
+			name = QJKJAutomaticInfiniteLoopDemoTests;
+			productName = QJKJAutomaticInfiniteLoopDemoTests;
+			productReference = 0450D7631C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0450D76D1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0450D77D1C97C774008AFDA7 /* Build configuration list for PBXNativeTarget "QJKJAutomaticInfiniteLoopDemoUITests" */;
+			buildPhases = (
+				0450D76A1C97C774008AFDA7 /* Sources */,
+				0450D76B1C97C774008AFDA7 /* Frameworks */,
+				0450D76C1C97C774008AFDA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0450D7701C97C774008AFDA7 /* PBXTargetDependency */,
+			);
+			name = QJKJAutomaticInfiniteLoopDemoUITests;
+			productName = QJKJAutomaticInfiniteLoopDemoUITests;
+			productReference = 0450D76E1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0450D7421C97C774008AFDA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "深圳市齐家科技";
+				TargetAttributes = {
+					0450D7491C97C774008AFDA7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0450D7621C97C774008AFDA7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0450D7491C97C774008AFDA7;
+					};
+					0450D76D1C97C774008AFDA7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0450D7491C97C774008AFDA7;
+					};
+				};
+			};
+			buildConfigurationList = 0450D7451C97C774008AFDA7 /* Build configuration list for PBXProject "QJKJAutomaticInfiniteLoopDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0450D7411C97C774008AFDA7;
+			productRefGroup = 0450D74B1C97C774008AFDA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0450D7491C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo */,
+				0450D7621C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests */,
+				0450D76D1C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0450D7481C97C774008AFDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450D75D1C97C774008AFDA7 /* LaunchScreen.storyboard in Resources */,
+				0450D75A1C97C774008AFDA7 /* Assets.xcassets in Resources */,
+				0450D7581C97C774008AFDA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0450D7611C97C774008AFDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0450D76C1C97C774008AFDA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0450D7461C97C774008AFDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450D78E1C981484008AFDA7 /* QJKJMessageAutomaticInfiteLoop.m in Sources */,
+				0450D7551C97C774008AFDA7 /* ViewController.m in Sources */,
+				0450D7881C97C78A008AFDA7 /* UIView+QJKJFrameQuick.m in Sources */,
+				0450D78B1C97F73D008AFDA7 /* QJKJImageAutomaticInfiniteLoop.m in Sources */,
+				0450D7861C97C78A008AFDA7 /* QJKJAutomaticInfiniteLoop.m in Sources */,
+				0450D7521C97C774008AFDA7 /* AppDelegate.m in Sources */,
+				0450D74F1C97C774008AFDA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0450D75F1C97C774008AFDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450D7681C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0450D76A1C97C774008AFDA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0450D7731C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0450D7651C97C774008AFDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0450D7491C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo */;
+			targetProxy = 0450D7641C97C774008AFDA7 /* PBXContainerItemProxy */;
+		};
+		0450D7701C97C774008AFDA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0450D7491C97C774008AFDA7 /* QJKJAutomaticInfiniteLoopDemo */;
+			targetProxy = 0450D76F1C97C774008AFDA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0450D7561C97C774008AFDA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0450D7571C97C774008AFDA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0450D75B1C97C774008AFDA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0450D75C1C97C774008AFDA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0450D7751C97C774008AFDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0450D7761C97C774008AFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0450D7781C97C774008AFDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QJKJAutomaticInfiniteLoopDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.QJKJAutomaticInfiniteLoopDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0450D7791C97C774008AFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QJKJAutomaticInfiniteLoopDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.QJKJAutomaticInfiniteLoopDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0450D77B1C97C774008AFDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QJKJAutomaticInfiniteLoopDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.QJKJAutomaticInfiniteLoopDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJKJAutomaticInfiniteLoopDemo.app/QJKJAutomaticInfiniteLoopDemo";
+			};
+			name = Debug;
+		};
+		0450D77C1C97C774008AFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QJKJAutomaticInfiniteLoopDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.QJKJAutomaticInfiniteLoopDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJKJAutomaticInfiniteLoopDemo.app/QJKJAutomaticInfiniteLoopDemo";
+			};
+			name = Release;
+		};
+		0450D77E1C97C774008AFDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QJKJAutomaticInfiniteLoopDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.QJKJAutomaticInfiniteLoopDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJKJAutomaticInfiniteLoopDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0450D77F1C97C774008AFDA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QJKJAutomaticInfiniteLoopDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Giga.QJKJAutomaticInfiniteLoopDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJKJAutomaticInfiniteLoopDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0450D7451C97C774008AFDA7 /* Build configuration list for PBXProject "QJKJAutomaticInfiniteLoopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0450D7751C97C774008AFDA7 /* Debug */,
+				0450D7761C97C774008AFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0450D7771C97C774008AFDA7 /* Build configuration list for PBXNativeTarget "QJKJAutomaticInfiniteLoopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0450D7781C97C774008AFDA7 /* Debug */,
+				0450D7791C97C774008AFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0450D77A1C97C774008AFDA7 /* Build configuration list for PBXNativeTarget "QJKJAutomaticInfiniteLoopDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0450D77B1C97C774008AFDA7 /* Debug */,
+				0450D77C1C97C774008AFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0450D77D1C97C774008AFDA7 /* Build configuration list for PBXNativeTarget "QJKJAutomaticInfiniteLoopDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0450D77E1C97C774008AFDA7 /* Debug */,
+				0450D77F1C97C774008AFDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0450D7421C97C774008AFDA7 /* Project object */;
+}
